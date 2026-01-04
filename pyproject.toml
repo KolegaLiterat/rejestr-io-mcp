@@ -1,0 +1,20 @@
+[project]
+name = "rejestr-io-mcp"
+version = "0.1.0"
+description = "MCP server providing access to Poland's largest business registry database - rejestr.io"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "httpx>=0.28.1",
+    "mcp>=1.25.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/KolegaLiterat/rejestr-io-mcp"
+Documentation = "https://github.com/KolegaLiterat/rejestr-io-mcp#readme"
+Repository = "https://github.com/KolegaLiterat/rejestr-io-mcp"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
