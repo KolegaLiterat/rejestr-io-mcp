@@ -338,7 +338,7 @@ where this person holds any position
 
 ## 📝 Important Notes
 
-- ⚠️ **Costs**: Most operations are free, but downloading financial statements in JSON costs 0.50 PLN per document
+- ⚠️ **Costs**: Downloading financial statements in JSON costs 0.50 PLN per document, rest operations are cost per usage.
 - 🔐 **Security**: Never share your API key. The `.env` file should be in `.gitignore`
 - 📊 **Limits**: Check your API plan limits at rejestr.io
 - 🔄 **Updates**: Data in rejestr.io is regularly updated from official registries
